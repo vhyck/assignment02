@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Example</title>
+
+    <style>
+        body {
+            background-color: rgba(255, 255, 255, 0.9);
+            margin: 20px;
+        }
+
+        h1 {
+            color: rgba(0, 0, 255, 0.5);
+            padding: 10px;
+            border: 2px solid blue;
+        }
+
+        h2 {
+            color: blue;
+        }
+
+        article {
+            text-align: center;
+        }
+
+        img {
+            width: 59px;
+            height: 50px;
+        }
+
+        ul.checklist {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul.checklist li {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        ul.checklist li:nth-child(1) {
+            color: green;
+        }
+
+        ul.checklist li:nth-child(2) {
+            color: blue;
+        }
+
+        ul.checklist li:nth-child(3) {
+            color: pink;
+        }
+
+        ul.checklist li:nth-child(4) {
+            color: turquoise;
+        }
+
+        ul.checklist li input[type="checkbox"] {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <article>
+        <top><center><img src="bucees.png" alt="buck"></center></top>
+        <strong>
+            <center>
+                <h1>My Scavation to North America</h1>
+            </center>
+        </strong>
+        <center>
+            <h2>Created by<sub> <span style="color: yellow; font-weight: bold;"><i>Vhyck Aquino</i></span></sub></h2>
+        </center>
+    </article>
+
+    <p>What is the American dream? When we think about America, our minds wander like skyscrapers of New York or the famous
+        land of Lincoln, Illinois, Chicago. There are many landmarks in the USA.</p>
+
+    <p>Here's my story. In the sprawling city of Los Angeles, nestled amidst the palm trees and neon lights, lived Victor,
+        an immigrant from the Philippines. His story was one of resilience, courage, and the pursuit of the American
+        dream.</p>
+
+    <p>Victor had arrived in the United States with a backpack of dreams and a heart filled with hope. Leaving behind his
+        family and a life of struggle in Manila, he had set out on a perilous journey northward, navigating treacherous
+        paths and risking it all for the chance at a better life.</p>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Victor's checklist</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <ul class="checklist">
+                        <li><input type="checkbox">Buy a house in San Diego</li>
+                        <li><input type="checkbox">Invest</li>
+                        <li><input type="checkbox">Meet Donald Trump</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
